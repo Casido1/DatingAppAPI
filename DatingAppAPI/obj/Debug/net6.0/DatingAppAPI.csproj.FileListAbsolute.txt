@@ -69,3 +69,5 @@ C:\Users\Casido\OneDrive\Desktop\Udemy\Dating App\DatingAppAPI\DatingAppAPI\bin\
 C:\Users\Casido\OneDrive\Desktop\Udemy\Dating App\DatingAppAPI\DatingAppAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\Casido\OneDrive\Desktop\Udemy\Dating App\DatingAppAPI\DatingAppAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Casido\OneDrive\Desktop\Udemy\Dating App\DatingAppAPI\DatingAppAPI\bin\Debug\net6.0\Data\UserSeedData.json
+C:\Users\Casido\OneDrive\Desktop\Udemy\Dating App\DatingAppAPI\DatingAppAPI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Casido\OneDrive\Desktop\Udemy\Dating App\DatingAppAPI\DatingAppAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
