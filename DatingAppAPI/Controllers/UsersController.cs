@@ -49,5 +49,11 @@ namespace DatingAppAPI.Controllers
 
             return BadRequest("Failed to update user");
         }
+
+        //[HttpPost("add-photo")]
+        //public async Task<IActionResult> AddPhoto(IFormFile file)
+        //{
+        //    var username = User.GetUserName();
+        //}
     }
 }
