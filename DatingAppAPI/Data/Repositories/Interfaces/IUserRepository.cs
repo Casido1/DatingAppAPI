@@ -12,7 +12,5 @@ namespace DatingAppAPI.Data.Repositories.Interfaces
         Task<AppUser> GetUserByUsernameAsync(string username);
         Task<IEnumerable<MemberDTO>> GetMembersAsync();
         Task<MemberDTO> GetMemberAsync(string username);
-        Task<PhotoDTO> AddPhoto(IFormFile file, string username);
-
     }
 }

@@ -1,4 +1,5 @@
-﻿using DatingAppAPI.Data;
+﻿using DatingAppAPI.Configurations;
+using DatingAppAPI.Data;
 using DatingAppAPI.Data.Repositories.Impementation;
 using DatingAppAPI.Data.Repositories.Interfaces;
 using DatingAppAPI.Services.Implementations;
@@ -21,6 +22,8 @@ namespace DatingAppAPI.Extensions
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddAutoMapper(typeof(Program));
+            services.Configure<CloudinarySettings>(config.GetSection("CloudinarySettings"));
+            services.AddScoped<IPhotoService, PhotoService>();
 
             return services;
         }
